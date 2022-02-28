@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="slidebar">
+        <p class="logo">Logo</p>
+        <div class="list-link">
+          <a class="link active" href="">Dish Management</a>
+          <a class="link" href="">Account Management</a>
+          <a class="link" href="">News Management</a>
+          <a class="link" href="">Contact Management</a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="header">
+          <i class="fa-solid fa-bars"></i>
+          <i style="font-size: 25px" class="fa-solid fa-user"></i>
+        </div>
+        <p
+          style="
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-top: 20px;
+          "
+        >
+          Create new Dish
+        </p>
+        <form
+          style="
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 50px;
+          "
+        >
+          <label for="" style="font-weight: 600">Name</label>
+          <input type="text" style="margin-top: 15px; padding: 10px 20px" />
+          <label for="" style="font-weight: 600; margin-top: 15px"
+            >Thumnail</label
+          >
+          <input type="text" style="margin-top: 15px; padding: 10px 20px" />
+          <label for="" style="font-weight: 600; margin-top: 15px"
+            >Description</label
+          >
+          <input type="text" style="margin-top: 15px; padding: 10px 20px" />
+          <label for="" style="font-weight: 600; margin-top: 15px">Price</label>
+          <input type="text" style="margin-top: 15px; padding: 10px 20px" />
+          <label for="" style="font-weight: 600; margin-top: 15px"
+            >Status</label
+          >
+          <select type="text" style="margin-top: 15px; padding: 10px 20px">
+            <!-- <option value="1">1</option> -->
+          </select>
+          <label for="" style="font-weight: 600; margin-top: 15px"
+            >Create At</label
+          >
+          <input type="Date" style="margin-top: 15px; padding: 10px 20px" />
+          <button
+            class="btn-edit"
+            style="width: 150px; margin-top: 15px; padding: 10px"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

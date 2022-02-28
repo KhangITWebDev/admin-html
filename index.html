@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="slidebar">
+        <p class="logo">Logo</p>
+        <div class="list-link">
+          <a class="link active" href="">Dish Management</a>
+          <a class="link" href="">Account Management</a>
+          <a class="link" href="">News Management</a>
+          <a class="link" href="">Contact Management</a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="header">
+          <i class="fa-solid fa-bars"></i>
+          <i style="font-size: 25px" class="fa-solid fa-user"></i>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            align-items: center;
+          "
+        >
+          <button
+            style="
+              display: flex;
+              border: none;
+              background-color: blue;
+              color: white;
+              padding: 5px 20px;
+            "
+          >
+            <i class="fa-solid fa-plus"></i>
+            <p>Add</p>
+          </button>
+          <select name="" id="" style="width: 300px; padding: 10px">
+            <option value="">All</option>
+          </select>
+          <div style="position: relative">
+            <input type="text" style="width: 300px; padding: 10px" />
+            <i
+              style="
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+              "
+              class="fa-solid fa-magnifying-glass"
+            ></i>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr style="padding: 20px">
+              <th style="margin-top: 20px">Id</th>
+              <th>Name</th>
+              <th>Thumnail</th>
+              <th>Price</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="text-align: center">1</td>
+              <td style="text-align: center">Beefsteak</td>
+              <td style="display: flex; justify-content: center">
+                <img
+                  src="https://media.istockphoto.com/photos/white-plate-of-medium-rare-beefsteak-served-with-french-fried-and-picture-id1346748167?b=1&k=20&m=1346748167&s=170667a&w=0&h=RaMUfTrWo4qwOdZ_P9FXF_WeLxDOal3xH1WRNyiAr9w="
+                  alt=""
+                  style="margin-top: 20px; margin-bottom: 20px"
+                />
+              </td>
+              <td style="text-align: center">100$</td>
+              <td style="text-align: center">Pending</td>
+              <td style="text-align: center">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center">2</td>
+              <td style="text-align: center">Beefsteak</td>
+              <td style="display: flex; justify-content: center">
+                <img
+                  src="https://media.istockphoto.com/photos/white-plate-of-medium-rare-beefsteak-served-with-french-fried-and-picture-id1346748167?b=1&k=20&m=1346748167&s=170667a&w=0&h=RaMUfTrWo4qwOdZ_P9FXF_WeLxDOal3xH1WRNyiAr9w="
+                  alt=""
+                  style="margin-top: 20px; margin-bottom: 20px"
+                />
+              </td>
+              <td style="text-align: center">100$</td>
+              <td style="text-align: center">Pending</td>
+              <td style="text-align: center">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center">3</td>
+              <td style="text-align: center">Beefsteak</td>
+              <td style="display: flex; justify-content: center">
+                <img
+                  src="https://media.istockphoto.com/photos/white-plate-of-medium-rare-beefsteak-served-with-french-fried-and-picture-id1346748167?b=1&k=20&m=1346748167&s=170667a&w=0&h=RaMUfTrWo4qwOdZ_P9FXF_WeLxDOal3xH1WRNyiAr9w="
+                  alt=""
+                  style="margin-top: 20px; margin-bottom: 20px"
+                />
+              </td>
+              <td style="text-align: center">100$</td>
+              <td style="text-align: center">Pending</td>
+              <td style="text-align: center">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center">4</td>
+              <td style="text-align: center">Beefsteak</td>
+              <td style="display: flex; justify-content: center">
+                <img
+                  src="https://media.istockphoto.com/photos/white-plate-of-medium-rare-beefsteak-served-with-french-fried-and-picture-id1346748167?b=1&k=20&m=1346748167&s=170667a&w=0&h=RaMUfTrWo4qwOdZ_P9FXF_WeLxDOal3xH1WRNyiAr9w="
+                  alt=""
+                  style="margin-top: 20px; margin-bottom: 20px"
+                />
+              </td>
+              <td style="text-align: center">100$</td>
+              <td style="text-align: center">Pending</td>
+              <td style="text-align: center">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center">5</td>
+              <td style="text-align: center">Beefsteak</td>
+              <td style="display: flex; justify-content: center">
+                <img
+                  src="https://media.istockphoto.com/photos/white-plate-of-medium-rare-beefsteak-served-with-french-fried-and-picture-id1346748167?b=1&k=20&m=1346748167&s=170667a&w=0&h=RaMUfTrWo4qwOdZ_P9FXF_WeLxDOal3xH1WRNyiAr9w="
+                  alt=""
+                  style="margin-top: 20px; margin-bottom: 20px"
+                />
+              </td>
+              <td style="text-align: center">100$</td>
+              <td style="text-align: center">Pending</td>
+              <td style="text-align: center">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
